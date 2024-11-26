@@ -1,0 +1,51 @@
+h2 {
+	margin: 50px 0; /* Add some space above and below the h2 element */
+	text-align: center;
+}
+
+#requirements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	/* Add some space below the requirements section */
+}
+
+.requirement {
+	margin: 10px 20px; /* Add some space between the requirement elements */
+	padding: 5px; /* Add padding to create a box around the content */
+}
+
+button {
+	background-color: white; /* Add a background color to the search box */
+	cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+	border: 1px solid lightgray;
+	padding: 10px 60px;
+	font-size: 18px;
+}
+
+.square-container {
+	display: flex;
+	justify-content: space-between;
+	/* Distribute the squares evenly across the container */
+	position: relative;
+	top: 17vh;
+}
+
+.square {
+	flex: 1;
+	max-width: 33%;
+	height: 34vh; /* Calculate the maximum width for each square */
+	background-color: lightgrey; /* Adjust the color as needed */
+	margin: 2px;
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.square:hover {
+	background-color: orange;
+}
+
+.material-symbols-outlined {
+	margin-left: 45px;
+}
